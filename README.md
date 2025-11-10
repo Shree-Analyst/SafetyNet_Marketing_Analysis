@@ -74,4 +74,4 @@ To improve analysis, we recommend the following:
 - **Address Data Quality Issues:** Family Coverage Plan had no data on clicks. 49 (0.3%) customer signups were not linked to any campaign. Combining data from separate tables creates nulls in new dimensions. Work with data engineering team to address these issues.
 - **Add Dimensions to Improve Analysis:** Adding campaign start & end dates allows establishing a link of campaign performance with spend over time. Adding First Touch allows linking signups to marketing channel performance. Adding customer claims helps to explore links between campaign types and claim amount with categories. Work with marketing team to determine ideal dimensions.
 - **Explore Dashboard for Self-Serve Insights:**
-Uncover specific insights & visualise trends using Tableau dashboard [here](link).
+Uncover specific insights & visualise trends using Tableau dashboard [here](https://public.tableau.com/app/profile/shreeraj.salunke/viz/SafetyNetDashboard/Dashboard).
