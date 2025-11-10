@@ -5,7 +5,7 @@ The data team's focus is on building a dynamic dashboard to allow the marketing 
 - Increase brand awareness
 - Generate new signups.
 
-ERD of the dataset can be found [here](link).
+ERD of the dataset can be found [here](https://github.com/Shree-Analyst/Health_Insurance_Analysis/blob/main/ERD.png).
 
 # Executive Summary
 
@@ -17,7 +17,7 @@ For each campaign, we evaluate the following **North Star Metrics:**
 
 ### Overview of Findings
 
-Dashboard Screenshot
+![Dashboard](https://github.com/Shree-Analyst/Health_Insurance_Analysis/blob/main/Visualisations/Dashboard.png)
 
 Safety Net's overall **CTR was 9.39%, Signup Rate was 1.92%, and CPS was $3.68**, all of which were in line with industry trends.
 
@@ -28,7 +28,7 @@ The **Customer Testimonial campaign type drove a rise (early 2021) and a sharp f
 # Insights Deep Dive
 ### Campaign Performance:
 
-Campaign cost scatterplot
+![Campaign Cost Scatterplot](https://github.com/Shree-Analyst/Health_Insurance_Analysis/blob/main/Visualisations/Scatter%205%20-%20Cost%20(presentation).png)
 
 Health For All was our outright best performing campaign with a high CTR (25%) and a high Signup Rate (8.2%). Based on statistically significant differences in CTR & Signup Rates, we can separate campaigns into 4 performance  categories:
 - Increase awareness & generate signups - Health For All & Compare Health Coverage had a high CTR (25% & 14% respectively) and a high Signup Rate (8.2% & 3% respectively).
@@ -41,7 +41,10 @@ Health For All was our outright best performing campaign with a high CTR (25%) a
 
 ### Signup Trends in Compare Health Coverage:
 
-CHC highlighted graph | CHC type graph
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+  <img src="https://github.com/Shree-Analyst/Health_Insurance_Analysis/blob/main/Visualisations/Signups-Category%20Line%20-%20CHC%20Highlighted%20(presentation).png" alt="CHC Highlighted Line" width="49%">
+  <img src="https://github.com/Shree-Analyst/Health_Insurance_Analysis/blob/main/Visualisations/CHC%20Time%20Series%20(presentation).png" alt="CHC Type Line" width="49%">
+</div>
 
 Most campaigns showed a similar trend in terms of new monthly signups:
 - Sharp rise with a peak in April 2020, driven by the onset of the Covid-19 pandemic
@@ -71,7 +74,7 @@ Based on the insights and findings above, we would recommend the marketing team 
 - The Family Coverage Plan campaign did not receive any clicks, hampering analysis. **We recommend the data engineering team to investigate this issue to strengthen future analysis.**
 
 # Caveats & Next Steps:
-Find a copy of the entire presentation used [here](link).
+Find a copy of the entire presentation used to share findings [here](https://github.com/Shree-Analyst/Health_Insurance_Analysis/blob/main/Presentation.pdf).
 
 To improve analysis, we recommend the following:
 - **Address Data Quality Issues:** Family Coverage Plan had no data on clicks. 49 (0.3%) customer signups were not linked to any campaign. Combining data from separate tables creates nulls in new dimensions.
