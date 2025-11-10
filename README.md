@@ -32,14 +32,11 @@ There were statistically significant differences in campaign performance: **Heal
 
 We can separate campaigns into 4 performance categories based on CTR & Signup Rates:
 - **High CTR & High Signup Rate to increase awareness & generate signups** - **Health For All was the outright best-performing campaign at CTR 25% & Signup Rate 8.2%**. Compare Health Coverage followed with CTR 14% & Signup Rate 3%. Combined, these campaigns cost $14k.
-- **High Signup Rate to generate signups** - #CoverageMatters (2.8%), #HealthyLiving (2.8%), and Tailored Health Plans (1.2%) generated signups despite low CTR (10%, 10%, 7% respectively). Combined, these campaigns cost $14k.
-- **High CTR to increase awareness** - Benefit Updates (22%), Summer Wellness Tips (18%), Affordable Plans (13%), and Preventive Care News (12%) generated awareness despite low Signup Rate (0.1% - 0.5%). Combined, these campaigns cost $17k.
+- **Low CTR but High Signup Rate to generate signups** - #CoverageMatters (2.8%), #HealthyLiving (2.8%), and Tailored Health Plans (1.2%) generated signups despite low CTR (10%, 10%, 7% respectively). Combined, these campaigns cost $14k.
+- **Low Signup Rate but High CTR to increase awareness** - Benefit Updates (22%), Summer Wellness Tips (18%), Affordable Plans (13%), and Preventive Care News (12%) increased awareness despite low Signup Rate (0.1% - 0.5%). Combined, these campaigns cost $17k.
 - **Low CTR & Low Signup Rate to neither increase awareness nor generate signups** - **Golden Years Security was the outright worst-performing campaign at CTR 1% & Signup Rate 0.4%**. #InsureYourHealth was next with CTR 8% & Signup Rate 0.4%. Combined, these campaigns cost $11k indicating ineffective results despite high budget allocation.
 
-4 campaigns (Health For All, Compare Health Coverage, #CoverageMatters, and #HealthyLiving) generate **83% of all signups**.
-
-The combined budget for 3 high-performing campaigns - Health For All, #HealthyLiving, and Benefit Updates - is $8k, lower than the combined budget for 2 poorly performing campaigns - #InsureYourHealth, Golden Years Security, indicating an **imbalance in resource allocation**.
-
+4 campaigns (Health For All, Compare Health Coverage, #CoverageMatters, and #HealthyLiving) generate **83% of all signups**. We note that marketing budget is not allocated based on performance.
 
 ### Campaign Types Can Drive Trends in Campaign Category Performance:
 
@@ -52,30 +49,29 @@ The combined budget for 3 high-performing campaigns - Health For All, #HealthyLi
 - Sharp rise with a peak in April 2020, driven by the onset of the Covid-19 pandemic
 - Steady decline since then until 2023, falling to pre-pandemic levels.
 
-By contrast, the **Compare Health Coverage campaign peaked in early-2021 and fell sharply in mid-2022. Customer Testimonial type campaigns drove this trend**: new monthly signups from this campaign type within Compare Health Coverage also peaked in early-2021 and fell sharply in mid-2022. Overall, this **campaign type had a high CTR (31%) and a high Signup Rate (3.5%)**. **Customer Testimonial type campaigns converted customers at a low CPS of $1.8 despite high spend ($10k) overall on Compare Health Coverage**. This indicates that investment in this campaign type generates returns by converting customers.
+By contrast, the **Compare Health Coverage campaign peaked in early-2021 and fell sharply in mid-2022. Customer Testimonials drove this trend**: new monthly signups from this type of campaign for Compare Health Coverage also peaked in early-2021 and fell sharply in mid-2022. Overall, **Customer Testimonials had a high CTR (31%) and a high Signup Rate (3.5%)**. **Despite $10k overall spend on Compare Health Coverage, Customer Testimonials converted customers at a low CPS of $1.8**. This indicates that significant return on investment.
 
 Other campaign categories were linked to specific campaign types (eg., #CoverageMatters category with Product Promotion type campaigns) which requires further investigation with the marketing team to surface insights on category-type pairs.
 
-### Segmentation: 2 States Make up Over Half of Customers
+### Segmentation & Plan Performance
 
-- **New Jersey** accounts for 50% of customers. 8.2k out of 16.4k customers were from New Jersey. A further 1.3k were from neighbouring **New York**, indicating that **58% of customers hail from these states alone**.
-- **Underperformance of platinum & bronze plans.** Only 12 customers signed up to the platinmum plan, at a high CPS of $491, indicating poor performance of this plan. The bronze plan also generated few signups (591) at a high CPS of $24.
+- **2 states make up over half of customers**: **New Jersey** accounts for 50% of customers. 8.2k out of 16.4k customers were from New Jersey. A further 1.3k were from neighbouring **New York**, indicating that **58% of customers hail from these states alone**.
+- **Underperformance of platinum & bronze plans.** Only 12 customers signed up to the platinmum plan, at a high CPS of $491, indicating poor performance. Similarly, the bronze plan also generated few signups (591) at a high CPS of $24.
 
 # Recommendations:
 
 Based on the insights and findings above, we would recommend the marketing team to consider the following: 
 
-- $11k allocated to poorly performing campaigns neither increases awareness nor generates signups. **Reallocating these resources to Health For All & Compare Health Coverage can generate a 17% increase in CTR & 13% increase in Signup Rate.**
-- Customer Testimonial type campaigns drove peak & fall in Compare Health Coverage. **Expand this campaign type to Health For All, #CoverageMatters, and #Healthy Living to efficiently generate more economical signups.**
-- Presence of various campaign category-campaign type pairs such as Compare Health Coverage-Customer Testimonials and #CoverageMatters-Product Promotion was noted. **Further examine category-type pairs to surface insights on attractive copies that increase awareness & generate signups.**
-- High CPS & few customers sign up to Platinum & Bronze plans. **We recommend the sales team to investigate the bronze plan's offering and consider eliminating the platinum plan.**
-- The Family Coverage Plan campaign did not receive any clicks, hampering analysis. **We recommend the data engineering team to investigate this issue to strengthen future analysis.**
+- $11k allocated to poorly performing Golden Years Security & #InsureYourHealth campaigns neither increases awareness nor generates signups. **Reallocating these resources to Health For All & Compare Health Coverage can generate a 17% increase in CTR & 13% increase in Signup Rate.**
+- Customer Testimonials have a high CTR, high Signup Rate, and low CPS, specifically for Compare Health Coverage. **Expand Customer Testimonials to Health For All, #CoverageMatters, and #Healthy Living** to efficiently generate more economical signups.
+- Work with the marketing team to **establish further links campaign-type links such as Compare Health Coverage-Customer Testimonials and #CoverageMatters-Product Promotion** to surface insights on attractive copies that increase awareness & generate signups.
+- Re-evaluate product offering due to High CPS & few signups to Platinum & Bronze plans. **Consider eliminating the platinum plan** & making improvements to the bronze plan.
 
 # Caveats & Next Steps:
 Find a copy of the entire presentation used to share findings [here](https://github.com/Shree-Analyst/Health_Insurance_Analysis/blob/main/Presentation.pdf).
 
 To improve analysis, we recommend the following:
-- **Address Data Quality Issues:** Family Coverage Plan had no data on clicks. 49 (0.3%) customer signups were not linked to any campaign. Combining data from separate tables creates nulls in new dimensions.
-- **Add Dimensions to Improve Analysis:** Adding campaign start & end dates allows establishing a link of campaign performance with spend over time. Adding First Touch allows linking signups to marketing channel performance. Adding customer claims helps to explore links between campaign types and claim amount with categories.
+- **Address Data Quality Issues:** Family Coverage Plan had no data on clicks. 49 (0.3%) customer signups were not linked to any campaign. Combining data from separate tables creates nulls in new dimensions. Work with data engineering team to address these issues.
+- **Add Dimensions to Improve Analysis:** Adding campaign start & end dates allows establishing a link of campaign performance with spend over time. Adding First Touch allows linking signups to marketing channel performance. Adding customer claims helps to explore links between campaign types and claim amount with categories. Work with marketing team to determine ideal dimensions.
 - **Explore Dashboard for Self-Serve Insights:**
 Uncover specific insights & visualise trends using Tableau dashboard [here](link).
