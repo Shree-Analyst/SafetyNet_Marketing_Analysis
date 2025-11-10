@@ -31,10 +31,10 @@ There were statistically significant differences in campaign performance: **Heal
 ![Campaign Cost Scatterplot](https://github.com/Shree-Analyst/Health_Insurance_Analysis/blob/main/Visualisations/Scatter%205%20-%20Cost%20(presentation).png)
 
 We can separate campaigns into 4 performance categories based on CTR & Signup Rates:
-- High CTR & High Signup Rate to increase awareness & generate signups** - Health For All was the outright best-performing campaign with high CTR (25%) & High Signup Rate (8.2%). Compare Health Coverage followed with CTR 14% & Signup Rate 3%. $14k were allocated to these campaigns combined.
-- High Signup Rate to generate signups - #CoverageMatters, #HealthyLiving, and Tailored Health Plans had high Signup Rate (2.8%, 2.8%, 1.2% respectively) despite low CTR (10%, 10%, 7% respectively).
-- High CTR to increase awareness - Benefit Updates, Summer Wellness Tips, Affordable Plans, and Preventive Care News had high CTR (22%, 18%, 13%, 12% respectively) despite low Signup Rate (0.1% - 0.5%).
-- Low CTR & Low Signup Rate to neither increase awareness nor generate signups - #InsureYourHealth and Golden Years Security had low CTR (8% & 1% respectively) and low Signup Rate (0.4% each). $11k were allocated to these campaigns combined, indicating ineffective results despite high budget allocation.
+- **High CTR & High Signup Rate to increase awareness & generate signups** - **Health For All was the outright best-performing campaign at CTR 25% & Signup Rate 8.2%**. Compare Health Coverage followed with CTR 14% & Signup Rate 3%. Combined, these campaigns cost $14k.
+- **High Signup Rate to generate signups** - #CoverageMatters (2.8%), #HealthyLiving (2.8%), and Tailored Health Plans (1.2%) generated signups despite low CTR (10%, 10%, 7% respectively). Combined, these campaigns cost $14k.
+- **High CTR to increase awareness** - Benefit Updates (22%), Summer Wellness Tips (18%), Affordable Plans (13%), and Preventive Care News (12%) generated awareness despite low Signup Rate (0.1% - 0.5%). Combined, these campaigns cost $17k.
+- **Low CTR & Low Signup Rate to neither increase awareness nor generate signups** - **Golden Years Security was the outright worst-performing campaign at CTR 1% & Signup Rate 0.4%**. #InsureYourHealth was next with CTR 8% & Signup Rate 0.4%. Combined, these campaigns cost $11k indicating ineffective results despite high budget allocation.
 
 4 campaigns (Health For All, Compare Health Coverage, #CoverageMatters, and #HealthyLiving) generate **83% of all signups**.
 
