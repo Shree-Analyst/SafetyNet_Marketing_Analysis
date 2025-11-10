@@ -1,5 +1,5 @@
 # Project Background
-Founded in 2016, Safety Net is a health insurance provider serving thousands of customers in the US. It launched new marketing campaign categories in 2019 with customers able to sign up to one of 4 insurance plans. It recently hired a new data team and aims to use analytics to determine next year's marketing budget allocation.
+Founded in 2016, Safety Net is a health insurance provider serving thousands of customers in the US. It launched new marketing campaigns in 2019 with customers able to sign up to one of 4 insurance plans. It recently hired a new data team and aims to use analytics to determine next year's marketing budget allocation.
 
 The data team's focus is on building a dynamic dashboard to allow the marketing team to self-serve insights, and on **analysing marketing campaign performance to suggest ways to improve resource allocation** to meet the following goals:
 - Increase brand awareness
@@ -15,24 +15,26 @@ For each campaign, we evaluate the following **North Star Metrics:**
 - **Signup Rate**  - % of people who sign up to a plan after clicking on a link.
 - **Cost per Signup (CPS)** - amount in US$ it takes to generate a new signup.
 
+### Dashboard
+
 ![Dashboard](https://github.com/Shree-Analyst/Health_Insurance_Analysis/blob/main/Visualisations/Dashboard.png)
 
 Safety Net's overall **CTR was 9.39%, Signup Rate was 1.92%, and CPS was $3.68**, all of which were in line with industry trends.
 
 There were statistically significant differences in campaign performance: **Health For All & Compare Health Coverage generated signups & increased brand awareness** as they had high CTR & Signup Rates (25% & 8.2%; 14% & 3% respectively). On the other hand, **Golden Years Security and #InsureYourHealth failed to generate signups or increase brand awareness** as they had low CTR & Signup Rates (1% & 0.4%; 8% & 0.4% respectively). We recommend to **reallocate budget** from these poorly performing campaigns to the best-performing ones to **boost overall CTR by 17% and Signup Rate by 13%**.
 
-The **Customer Testimonial campaign type drove a rise (early 2021) and a sharp fall (mid-2022) in new signups within the Compare Health Coverage campaign category at a low CPS of $1.8**. We recommend to **extend this campaign type to other high-performing campaigns** like Health For All, #CoverageMatters, and #HealthyLiving to **efficiently generate economical signups**.
+**Customer Testimonials drove a peak (early 2021) and a sharp fall (mid-2022) in monthly signups for the Compare Health Coverage campaign at a low CPS of $1.8**. We recommend to **extend this campaign type to other high-performing campaigns:** Health For All, #CoverageMatters, and #HealthyLiving to efficiently generate economical signups.
 
 # Insights Deep Dive
 ### Significant Differences in Campaign Performance & Resource Use Effectiveness:
 
 ![Campaign Cost Scatterplot](https://github.com/Shree-Analyst/Health_Insurance_Analysis/blob/main/Visualisations/Scatter%205%20-%20Cost%20(presentation).png)
 
-**High CTR (25%) & Signup Rate (8.2%) shows Health For All as the outright best performing campaign.** We can separate campaigns into 4 performance categories based on CTR & Signup Rates:
-- **Increase awareness & generate signups** - Health For All & Compare Health Coverage had a high CTR (25% & 14% respectively) and a high Signup Rate (8.2% & 3% respectively). $14k were allocated to these campaigns combined.
-- **Generate Signups** - #CoverageMatters, #HealthyLiving, and Tailored Health Plans had high Signup Rate (2.8%, 2.8%, 1.2% respectively) despite low CTR (10%, 10%, 7% respectively).
-- **Increase Awareness** - Benefit Updates, Summer Wellness Tips, Affordable Plans, and Preventive Care News had high CTR (22%, 18%, 13%, 12% respectively) despite low Signup Rate (0.1% - 0.5%).
-- **Neither increase awareness nor generate signups** - #InsureYourHealth and Golden Years Security had low CTR (8% & 1% respectively) and low Signup Rate (0.4% each). $11k were allocated to these campaigns combined, indicating ineffective results despite high budget allocation.
+We can separate campaigns into 4 performance categories based on CTR & Signup Rates:
+- High CTR & High Signup Rate to increase awareness & generate signups** - Health For All was the outright best-performing campaign with high CTR (25%) & High Signup Rate (8.2%). Compare Health Coverage followed with CTR 14% & Signup Rate 3%. $14k were allocated to these campaigns combined.
+- High Signup Rate to generate signups - #CoverageMatters, #HealthyLiving, and Tailored Health Plans had high Signup Rate (2.8%, 2.8%, 1.2% respectively) despite low CTR (10%, 10%, 7% respectively).
+- High CTR to increase awareness - Benefit Updates, Summer Wellness Tips, Affordable Plans, and Preventive Care News had high CTR (22%, 18%, 13%, 12% respectively) despite low Signup Rate (0.1% - 0.5%).
+- Low CTR & Low Signup Rate to neither increase awareness nor generate signups - #InsureYourHealth and Golden Years Security had low CTR (8% & 1% respectively) and low Signup Rate (0.4% each). $11k were allocated to these campaigns combined, indicating ineffective results despite high budget allocation.
 
 4 campaigns (Health For All, Compare Health Coverage, #CoverageMatters, and #HealthyLiving) generate **83% of all signups**.
 
