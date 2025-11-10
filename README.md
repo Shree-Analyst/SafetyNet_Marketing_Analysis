@@ -13,13 +13,13 @@ For each campaign, we evaluate the following **North Star Metrics:**
 
 - **Click-Through-Rate (CTR)** - % of people who click on a link after seeing a campaign.
 - **Signup Rate**  - % of people who sign up to a plan after clicking on a link.
-- **Cost per Signup (CPS)** - amount in US$ it takes to generate a new signup.
+- **Cost per Signup (CPS)** - amount in US$ it takes to convert a customer.
 
-### Dashboard
+### Tableau Dashboard
 
 ![Dashboard](https://github.com/Shree-Analyst/Health_Insurance_Analysis/blob/main/Visualisations/Dashboard.png)
 
-Safety Net's overall **CTR was 9.39%, Signup Rate was 1.92%, and CPS was $3.68**, all of which were in line with industry trends.
+Safety Net's overall **CTR was 9.39%, Signup Rate 1.92%, and CPS $3.68**, all of which were in line with industry trends.
 
 There were statistically significant differences in campaign performance: **Health For All & Compare Health Coverage generated signups & increased brand awareness** as they had high CTR & Signup Rates (25% & 8.2%; 14% & 3% respectively). On the other hand, **Golden Years Security and #InsureYourHealth failed to generate signups or increase brand awareness** as they had low CTR & Signup Rates (1% & 0.4%; 8% & 0.4% respectively). We recommend to **reallocate budget** from these poorly performing campaigns to the best-performing ones to **boost overall CTR by 17% and Signup Rate by 13%**.
 
