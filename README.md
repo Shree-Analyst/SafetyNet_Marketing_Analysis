@@ -5,31 +5,28 @@ The data team's focus is on building a dynamic dashboard to allow the marketing 
 - Increase brand awareness
 - Generate new signups.
 
-ERD of the dataset can be found [here](https://raw.githubusercontent.com/Shree-Analyst/SafetyNet_Marketing_Analysis/main/ERD.png).
-
 For each campaign, we evaluate the following **North Star Metrics:**
 
 - **Click-Through-Rate (CTR)** - % of people who click on a link after seeing a campaign.
 - **Signup Rate**  - % of people who sign up to a plan after clicking on a link.
 - **Cost per Signup (CPS)** - amount in US$ it takes to convert a customer.
 
+ERD of the dataset can be found [here](https://raw.githubusercontent.com/Shree-Analyst/SafetyNet_Marketing_Analysis/main/ERD.png).
+
 # Executive Summary
 
 ![Dashboard](https://raw.githubusercontent.com/Shree-Analyst/SafetyNet_Marketing_Analysis/edit/Visualisations/Dashboard%20Top.png)
 
-Safety Net's North Star metrics were all in line with industry trends.
+Safety Net's **CTR was 9.39%, Signup Rate 1.92%, and CPS $3.68**, falling in line with industry benchmarks.
 
-### Overview of Findings
+### Insights & Recommendations
 
-- **4 campaigns generated 83% of all signups:** Health For All, Compare Health Coverage, #HealthyLiving, and #CoverageMatters.
-- **CTR & Signup Rate split campaigns into 4 performance categories** - high CTR & high Signup Rate, low CTR & high Signup Rate, high CTR & low Signup Rate, low CTR & low Signup Rate.
-- **One-fifth of marketing budget ($11k) spent on 2 underperforming campaigns** - #InsureYourHealth and Golden Years Security, indicating a core inefficiency.
-- **Campaign signup surges linked to campaign types** - Customer Testimonial type campaigns linked to a surge in Compare Health Coverage signups.
+- **4 campaigns generated 83% of all signups**: Health For All, Compare Health Coverage, #HealthyLiving, and #CoverageMatters.
+- **CTR & Signup Rate split campaigns into 4 performance categories**, based on contribution to increasing brand awareness & generating signups.
+- **One-fifth of marketing budget ($11k) was spent on 2 underperforming campaigns** - #InsureYourHealth and Golden Years Security, indicating a core inefficiency of resource allocation.
+- **Campaign signup surges linked to campaign types** - Customer Testimonial type campaigns are linked to a surge in monthly signups from Compare Health Coverage campaign.
 
-### Overview of Recommendations
-We recommend Safety Net's Marketing Team to:
-- **Reallocate budget to increase CTR by 17% and Signup Rate by 13%** - from #InsureYourHealth & Golden Years Security to Health For All & Compare Health Coverage.
-- **Extend Customer Testimonials campaign type, to generate signups at low CPS,** to other high-performing campaigns: Health For All, #CoverageMatters, and #HealthyLiving.
+We recommend Safety Net's Marketing Team to reallocate resources and adjust its marketing strategy based on campaign performance. This would **boost CTR by 17%, Signup Rate by 13%**, and lead to stronger efficiency gains.
 
 # Insights Deep Dive
 ## Insight 1: High vs Low Performing Campaigns
@@ -38,11 +35,11 @@ We recommend Safety Net's Marketing Team to:
 
 We can **separate campaigns into 4 performance categories** based on CTR & Signup Rates:
 1. High CTR & High Signup Rate to **increase awareness & generate signups** - **Health For All was the outright best-performing campaign** at CTR 25% & Signup Rate 8.2%. Compare Health Coverage followed with CTR 14% & Signup Rate 3%. **Combined, these campaigns cost $14k**.
-2. Low CTR but High Signup Rate to **generate signups** - #CoverageMatters (2.8%), #HealthyLiving (2.8%), and Tailored Health Plans (1.2%) generated signups despite low CTR (10%, 10%, 7% respectively). Combined, these campaigns cost $14k.
-3. Low Signup Rate but High CTR to **increase awareness** - Benefit Updates (22%), Summer Wellness Tips (18%), Affordable Plans (13%), and Preventive Care News (12%) increased awareness despite low Signup Rate (0.1% - 0.5%). Combined, these campaigns cost $17k.
+2. Low CTR & High Signup Rate to **generate signups** - #CoverageMatters (2.8%), #HealthyLiving (2.8%), and Tailored Health Plans (1.2%) generated signups despite low CTR (10%, 10%, 7% respectively). Combined, these campaigns cost $14k.
+3. Low Signup Rate & High CTR to **increase awareness** - Benefit Updates (22%), Summer Wellness Tips (18%), Affordable Plans (13%), and Preventive Care News (12%) increased awareness despite low Signup Rate (ranging from 0.1% to 0.5%). Combined, these campaigns cost $17k.
 4. Low CTR & Low Signup Rate to **neither increase awareness nor generate signups** - **Golden Years Security was the outright worst-performing campaign** at CTR 1% & Signup Rate 0.4%. #InsureYourHealth was next with CTR 8% & Signup Rate 0.4%. **Combined, these campaigns cost $11k** indicating ineffective results despite high budget allocation. **Marketing budget does not seem to be allocated based on performance.**
 
-**4 campaigns generate 83% of all signups** - Health For All, Compare Health Coverage, #CoverageMatters, and #HealthyLiving; all of which fall into category 1 or 2.
+Additionally, **4 campaigns from categories 1 & 2 generate 83% of all signups** - Health For All, Compare Health Coverage, #CoverageMatters, and #HealthyLiving.
 
 ## Insight 2: Customer Testimonial Surge Drives Compare Health Coverage Signups
 
@@ -69,14 +66,16 @@ Other campaign categories were linked to specific campaign types (eg., #Coverage
 
 # Recommendations:
 
-Our insights enable the marketing team to improve resource allocation and adjust marketing strategy for efficiency gains. Based on our findings, we would recommend the marketing team the following: 
+Our insights enable the marketing team to improve resource allocation and adjust marketing strategy for efficiency gains. Based on our findings, we would recommend the following: 
 
-- **Reallocate budget from underperformers**: $11k allocated to poorly performing Golden Years Security & #InsureYourHealth campaigns neither increases awareness nor generates signups. **Reallocating these resources to Health For All & Compare Health Coverage can boost CTR by 17% and Signup Rate by 13%.**
-- **Expand Customer Testimonials to high-performing campaigns**: With a high CTR, high Signup Rate, and low CPS, specifically for Compare Health Coverage, expanding Customer Testimonials to Health For All, #CoverageMatters, and #Healthy Living will **generate new, economical signups**.
-- **Identify campaign-type paris**: Work with the marketing team to evaluate further campaign-type links such as Compare Health Coverage-Customer Testimonials and #CoverageMatters-Product Promotion to **surface insights on attractive copies that increase awareness & generate signups**.
-
-We would also recommend the **product team** the following:
-- **Re-evaluate offering**: Examine product offering due to poor performance (high CPS & few signups) of Platinum & Bronze plans. **Consider eliminating the platinum plan** & making improvements to the bronze plan.
+#### Reallocate budget from underperformers:
+- $11k allocated to poorly performing Golden Years Security & #InsureYourHealth campaigns neither increases awareness nor generates signups. **Reallocating these resources to Health For All & Compare Health Coverage can boost CTR by 17% and Signup Rate by 13%.**
+#### Expand Customer Testimonials to high-performing campaigns:
+- With a high CTR, high Signup Rate, and low CPS, specifically for Compare Health Coverage, expanding Customer Testimonials to Health For All, #CoverageMatters, and #Healthy Living will **generate new, economical signups**.
+#### Identify campaign-type paris:
+- Work with the marketing team to evaluate further campaign-type links such as Compare Health Coverage-Customer Testimonials and #CoverageMatters-Product Promotion to **surface insights on attractive copies that increase awareness & generate signups**.
+#### Re-evaluate offering:
+- We recommend the product team to examine product offering due to poor performance (high CPS & few signups) of Platinum & Bronze plans. **Consider eliminating the platinum plan** & making improvements to the bronze plan.
 
 # Caveats & Next Steps:
 
