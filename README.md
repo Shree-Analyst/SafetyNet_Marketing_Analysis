@@ -1,11 +1,9 @@
 # Project Background
 Founded in 2016, Safety Net is a health insurance provider serving thousands of customers in the US. It launched new marketing campaigns in 2019 with customers able to sign up to one of 4 insurance plans. It recently hired a new data team and aims to use analytics to determine next year's marketing budget allocation.
 
-The data team's focus is on building a dynamic dashboard to allow the marketing team to self-serve insights, and on **analysing marketing campaign performance to improve resource allocation** aimed at meeting the following goals:
+The data team's focus is on **analysing marketing campaign performance to improve the Marketing Team's resource allocation** and on building a dynamic dashboard to allow them to self-serve insights, aimed at meeting the following goals:
 - Increase brand awareness
 - Generate new signups.
-
-ERD of the dataset can be found [here](https://raw.githubusercontent.com/Shree-Analyst/SafetyNet_Marketing_Analysis/main/ERD.png).
 
 For each campaign, we evaluate the following **North Star Metrics:**
 
@@ -13,24 +11,24 @@ For each campaign, we evaluate the following **North Star Metrics:**
 - **Signup Rate**  - % of people who sign up to a plan after clicking on a link.
 - **Cost per Signup (CPS)** - amount in US$ it takes to convert a customer.
 
+ERD of the dataset can be found [here](https://raw.githubusercontent.com/Shree-Analyst/SafetyNet_Marketing_Analysis/main/ERD.png).
+
 # Executive Summary
 
-Safety Net's overall **CTR was 9.39%, Signup Rate 1.92%, and CPS $3.68**, all of which were in line with industry trends.
+![North Star KPIs: CTR | Cost-per-Click | Signup Rate | CPS](https://raw.githubusercontent.com/Shree-Analyst/SafetyNet_Marketing_Analysis/edit/Visualisations/Dashboard%20Top.png)
 
-![Dashboard](https://raw.githubusercontent.com/Shree-Analyst/SafetyNet_Marketing_Analysis/main/Visualisations/Dashboard.png)
+Safety Net's **CTR was 9.39%, Signup Rate 1.92%, and CPS $3.68**, falling in line with industry benchmarks.
 
-### Insights and Recommendations
+### Insights & Recommendations
 
-- **4 campaigns generated 83% of all signups:** Health For All, Compare Health Coverage, #HealthyLiving, and #CoverageMatters.
-- **CTR & Signup Rate split campaigns into 4 performance categories** - high CTR & high Signup Rate, low CTR & high Signup Rate, high CTR & low Signup Rate, low CTR & low Signup Rate.
-- **One-fifth of marketing budget ($11k) spent on 2 underperforming campaigns** - #InsureYourHealth and Golden Years Security, indicating a core inefficiency.
-- **Reallocate budget to increase CTR by 17% and Signup Rate by 13%** - from #InsureYourHealth & Golden Years Security to Health For All & Compare Health Coverage.
+- **4 campaigns generated 83% of all signups**: Health For All, Compare Health Coverage, #HealthyLiving, and #CoverageMatters.
+- **CTR & Signup Rate split campaigns into 4 performance categories**, based on contribution to increasing brand awareness & generating signups.
+- **One-fifth of marketing budget ($11k) was spent on 2 underperforming campaigns** - #InsureYourHealth and Golden Years Security, indicating a core inefficiency of resource allocation.
+- **Campaign signup surges linked to campaign types** - Customer Testimonial type campaigns are linked to a surge in monthly signups from Compare Health Coverage campaign.
 
-### Overview of Findings
+**We recommend Safety Net's Marketing Team to reallocate resources** and adjust its marketing strategy based on campaign performance. This would **boost CTR by 17%, Signup Rate by 13%**, and lead to stronger efficiency gains.
 
-There were significant differences in campaign performance: **Health For All & Compare Health Coverage generated signups & increased brand awareness** with high CTR & Signup Rates (25% & 8.2%; 14% & 3% respectively). On the other hand, **Golden Years Security and #InsureYourHealth failed to generate signups or increase brand awareness** with low CTR & Signup Rates (1% & 0.4%; 8% & 0.4% respectively). We recommend to **reallocate budget** from these poorly performing campaigns to the best-performers to **boost CTR by 17% and Signup Rate by 13%**.
-
-**Customer Testimonials drove a peak (early 2021) and a sharp fall (mid-2022) in monthly signups for the Compare Health Coverage campaign at a low CPS of $1.8**. We recommend to **extend this campaign type to other high-performing campaigns:** Health For All, #CoverageMatters, and #HealthyLiving to efficiently generate economical signups.
+<div style="page-break-after: always"></div>
 
 # Insights Deep Dive
 ## Insight 1: High vs Low Performing Campaigns
@@ -38,12 +36,14 @@ There were significant differences in campaign performance: **Health For All & C
 ![Campaign Cost Scatterplot](https://raw.githubusercontent.com/Shree-Analyst/SafetyNet_Marketing_Analysis/main/Visualisations/Scatter%205%20-%20Cost%20(presentation).png)
 
 We can **separate campaigns into 4 performance categories** based on CTR & Signup Rates:
-1. High CTR & High Signup Rate to **increase awareness & generate signups** - **Health For All was the outright best-performing campaign** at CTR 25% & Signup Rate 8.2%. Compare Health Coverage followed with CTR 14% & Signup Rate 3%. **Combined, these campaigns cost $14k**.
-2. Low CTR but High Signup Rate to **generate signups** - #CoverageMatters (2.8%), #HealthyLiving (2.8%), and Tailored Health Plans (1.2%) generated signups despite low CTR (10%, 10%, 7% respectively). Combined, these campaigns cost $14k.
-3. Low Signup Rate but High CTR to **increase awareness** - Benefit Updates (22%), Summer Wellness Tips (18%), Affordable Plans (13%), and Preventive Care News (12%) increased awareness despite low Signup Rate (0.1% - 0.5%). Combined, these campaigns cost $17k.
-4. Low CTR & Low Signup Rate to **neither increase awareness nor generate signups** - **Golden Years Security was the outright worst-performing campaign** at CTR 1% & Signup Rate 0.4%. #InsureYourHealth was next with CTR 8% & Signup Rate 0.4%. **Combined, these campaigns cost $11k** indicating ineffective results despite high budget allocation. **Marketing budget does not seem to be allocated based on performance.**
+1. **High CTR & High Signup Rate to increase awareness & generate signups** - **Health For All was the outright best-performing campaign** at CTR 25% & Signup Rate 8.2%. Compare Health Coverage followed with CTR 14% & Signup Rate 3%. Combined, these campaigns cost $14k.
+2. **Low CTR & High Signup Rate to generate signups** - #CoverageMatters (2.8%), #HealthyLiving (2.8%), and Tailored Health Plans (1.2%) generated signups despite low CTR (10%, 10%, 7% respectively). Combined, these campaigns cost $14k.
+3. **Low Signup Rate & High CTR to increase awareness** - Benefit Updates (22%), Summer Wellness Tips (18%), Affordable Plans (13%), and Preventive Care News (12%) increased awareness despite low Signup Rate (ranging from 0.1% to 0.5%). Combined, these campaigns cost $17k.
+4. **Low CTR & Low Signup Rate to neither increase awareness nor generate signups** - **Golden Years Security was the outright worst-performing campaign** at CTR 1% & Signup Rate 0.4%. #InsureYourHealth was next with CTR 8% & Signup Rate 0.4%. Combined, these campaigns cost $11k.
 
-**4 campaigns generate 83% of all signups** - Health For All, Compare Health Coverage, #CoverageMatters, and #HealthyLiving.
+$11k allocated to poor performers indicate ineffective results despite high budget allocation. Only $3k more were allocated to high performers despite excellent results, suggesting that **marketing budget is not allocated based on performance.**
+
+<div style="page-break-after: always"></div>
 
 ## Insight 2: Customer Testimonial Surge Drives Compare Health Coverage Signups
 
@@ -56,34 +56,36 @@ We can **separate campaigns into 4 performance categories** based on CTR & Signu
 - Sharp rise with a **peak in April 2020**, driven by the onset of the Covid-19 pandemic
 - **Steady decline since then until 2023**, falling to pre-pandemic levels.
 
-**Exceptionally, the Compare Health Coverage campaign peaked in early-2021 and fell sharply in mid-2022 driven by Customer Testimonial type campaigns**. Overall, Customer Testimonials had a **high CTR (31%) and a high Signup Rate (3.5%)**. Customers also converted at a a **low CPS of $1.8, indicating a significant return on investment** despite high spend on Compare Health Coverage ($10k).
+**Exceptionally, the Compare Health Coverage campaign peaked in early-2021 and fell sharply in mid-2022 driven by Customer Testimonial type campaigns**. Overall, Customer Testimonials had a **high CTR (31%) and a high Signup Rate (3.5%)**. Customers also converted at a **low CPS of $1.8, indicating a significant return on investment** despite high spend on Compare Health Coverage ($10k).
 
 Other campaign categories were linked to specific campaign types (eg., #CoverageMatters category with Product Promotion type campaigns) which requires further investigation with the marketing team to surface insights on category-type pairs.
 
 ## Insight 3: Segmentation
 
-- **2 states make up over half of customers**: **New Jersey** accounts for 50% of customers. 8.2k out of 16.4k customers were from New Jersey. A further 1.3k were from neighbouring **New York**, indicating that 58% of customers hail from these states alone.
+- **2 states make up over half of customers**: **New Jersey** accounts for 50% of customers - 8.2k out of 16.4k total. A further 1.3k were from neighbouring **New York**, indicating that 58% of customers come from these states.
 
 ## Insight 4: Plan Performance
 
-- **Underperformance of platinum & bronze plans.** Only 12 customers signed up to the platinmum plan, at a high CPS of $491, indicating poor performance. Similarly, the bronze plan also generated few signups (591) at a high CPS of $24.
+- **Underperformance of platinum & bronze plans.** Only 12 customers signed up to the platinum plan, at a high CPS of $491, indicating poor performance. Similarly, the bronze plan also generated few signups (591) at a high CPS of $24.
+
+<div style="page-break-after: always"></div>
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the marketing team to consider the following: 
+Our findings would enable the Marketing & Product Teams to reallocate resources and improve acquisition efficiency. We would recommend the marketing & product teams to consider the following:
 
-- $11k allocated to poorly performing Golden Years Security & #InsureYourHealth campaigns neither increases awareness nor generates signups. **Reallocating these resources to Health For All & Compare Health Coverage can boost CTR by 17% and Signup Rate by 13%.**
-- Customer Testimonials have a high CTR, high Signup Rate, and low CPS, specifically for Compare Health Coverage. **Expand Customer Testimonials to Health For All, #CoverageMatters, and #Healthy Living** to efficiently generate more economical signups.
-- Work with the marketing team to **evaluate further campaign-type links such as Compare Health Coverage-Customer Testimonials and #CoverageMatters-Product Promotion** to surface insights on attractive copies that increase awareness & generate signups.
-- Re-evaluate product offering due to High CPS & few signups to Platinum & Bronze plans. **Consider eliminating the platinum plan** & making improvements to the bronze plan.
+- **Reallocate budget from underperformers**: Reallocate $11k allocated to poorly performing campaigns (Golden Years Security & #InsureYourHealth) to top performers (Health For All & Compare Health Coverage) to **boost CTR by 17% and Signup Rate by 13%.**
+- **Expand Customer Testimonials to high-performing campaigns**: With attractive performance for Compare Health Coverage, applying Customer Testimonials to high-performing Health For All, #CoverageMatters, and #Healthy Living will **generate new signups at low CPS of $1.8**.
+- **Identify campaign-type pairs**: Work with the Marketing Team to evaluate further campaign-type links such as Compare Health Coverage-Customer Testimonials and #CoverageMatters-Product Promotion to **surface insights on attractive copies that increase awareness & most efficiently generate signups**.
+- **Re-evaluate offering**: Consider eliminating the Platinum plan & making improvements to the Bronze plan due to poor performance to **lower acquisition costs, increase efficiency, and optimise marketing resource use**.
 
 # Caveats & Next Steps:
 
 To improve analysis, we recommend the following:
-- **Address Data Quality Issues:** Family Coverage Plan had no data on clicks. 49 (0.3%) customer signups were not linked to any campaign. Combining data from separate tables creates nulls in new dimensions. Work with data engineering team to address these issues.
-- **Add Dimensions to Improve Analysis:** Adding campaign start & end dates allows establishing a link of campaign performance with spend over time. Adding First Touch allows linking signups to marketing channel performance. Adding customer claims helps to explore links between campaign types and claim amount with categories. Work with marketing team to determine ideal dimensions.
+- **Address Data Quality Issues with Data Engineering Team:** Family Coverage Plan had no data on clicks. 49 (0.3%) customer signups were not linked to any campaign. Combining data from separate tables creates nulls in new dimensions.
+- **Add Dimensions to Improve Analysis with Marketing Team:** Adding campaign start & end dates allows establishing a link of campaign performance with spend over time. Adding First Touch allows linking signups to marketing channel performance. Adding customer claims helps to explore links between campaign types and claim amount with categories.
 - **Explore Dashboard for Self-Serve Insights:**
-Uncover specific insights & visualise trends using Tableau dashboard [here](https://public.tableau.com/app/profile/shreeraj.salunke/viz/SafetyNetDashboard/Dashboard).
+Uncover specific insights & visualise trends using [Tableau dashboard here](https://public.tableau.com/app/profile/shreeraj.salunke/viz/SafetyNetDashboard/Dashboard).
 
 # Appendix
 Find a copy of the entire presentation used to share findings [here](https://raw.githubusercontent.com/Shree-Analyst/SafetyNet_Marketing_Analysis/main/Presentation.pdf) and a live presentation demo [here](https://www.loom.com/share/7e2b31d1d441467885cd1067f38347a1).
