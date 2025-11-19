@@ -15,7 +15,7 @@ ERD of the dataset can be found [here](https://raw.githubusercontent.com/Shree-A
 
 # Executive Summary
 
-![Dashboard](https://raw.githubusercontent.com/Shree-Analyst/SafetyNet_Marketing_Analysis/edit/Visualisations/Dashboard%20Top.png)
+![North Star KPIs: CTR | Cost-per-Click | Signup Rate | CPS](https://raw.githubusercontent.com/Shree-Analyst/SafetyNet_Marketing_Analysis/edit/Visualisations/Dashboard%20Top.png)
 
 Safety Net's **CTR was 9.39%, Signup Rate 1.92%, and CPS $3.68**, falling in line with industry benchmarks.
 
@@ -52,7 +52,7 @@ Additionally, **4 campaigns from categories 1 & 2 generate 83% of all signups** 
 - Sharp rise with a **peak in April 2020**, driven by the onset of the Covid-19 pandemic
 - **Steady decline since then until 2023**, falling to pre-pandemic levels.
 
-**Exceptionally, the Compare Health Coverage campaign peaked in early-2021 and fell sharply in mid-2022 driven by Customer Testimonial type campaigns**. Overall, Customer Testimonials had a **high CTR (31%) and a high Signup Rate (3.5%)**. Customers also converted at a a **low CPS of $1.8, indicating a significant return on investment** despite high spend on Compare Health Coverage ($10k).
+**Exceptionally, the Compare Health Coverage campaign peaked in early-2021 and fell sharply in mid-2022 driven by Customer Testimonial type campaigns**. Overall, Customer Testimonials had a **high CTR (31%) and a high Signup Rate (3.5%)**. Customers also converted at a **low CPS of $1.8, indicating a significant return on investment** despite high spend on Compare Health Coverage ($10k).
 
 Other campaign categories were linked to specific campaign types (eg., #CoverageMatters category with Product Promotion type campaigns) which requires further investigation with the marketing team to surface insights on category-type pairs.
 
@@ -62,18 +62,21 @@ Other campaign categories were linked to specific campaign types (eg., #Coverage
 
 ## Insight 4: Plan Performance
 
-- **Underperformance of platinum & bronze plans.** Only 12 customers signed up to the platinmum plan, at a high CPS of $491, indicating poor performance. Similarly, the bronze plan also generated few signups (591) at a high CPS of $24.
+- **Underperformance of platinum & bronze plans.** Only 12 customers signed up to the platinum plan, at a high CPS of $491, indicating poor performance. Similarly, the bronze plan also generated few signups (591) at a high CPS of $24.
 
 # Recommendations:
 
-Our insights enable the marketing team to improve resource allocation and adjust marketing strategy for efficiency gains. Based on our findings, we would recommend the following: 
+These insights enable the Marketing & Product teams to reallocate resources and improve acquisition efficiency. Based on our findings, we would recommend the following: 
 
 #### Reallocate budget from underperformers:
 - $11k allocated to poorly performing Golden Years Security & #InsureYourHealth campaigns neither increases awareness nor generates signups. **Reallocating these resources to Health For All & Compare Health Coverage can boost CTR by 17% and Signup Rate by 13%.**
+
 #### Expand Customer Testimonials to high-performing campaigns:
 - With a high CTR, high Signup Rate, and low CPS, specifically for Compare Health Coverage, expanding Customer Testimonials to Health For All, #CoverageMatters, and #Healthy Living will **generate new, economical signups**.
-#### Identify campaign-type paris:
+
+#### Identify campaign-type pairs:
 - Work with the marketing team to evaluate further campaign-type links such as Compare Health Coverage-Customer Testimonials and #CoverageMatters-Product Promotion to **surface insights on attractive copies that increase awareness & generate signups**.
+
 #### Re-evaluate offering:
 - We recommend the product team to examine product offering due to poor performance (high CPS & few signups) of Platinum & Bronze plans. **Consider eliminating the platinum plan** & making improvements to the bronze plan.
 
