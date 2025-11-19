@@ -68,7 +68,7 @@ Based on the insights and findings above, we would recommend the marketing team 
 - Re-evaluate product offering due to High CPS & few signups to Platinum & Bronze plans. **Consider eliminating the platinum plan** & making improvements to the bronze plan.
 
 # Caveats & Next Steps:
-Find a copy of the entire presentation used to share findings [here](https://github.com/Shree-Analyst/SafetyNet_Marketing_Analysis/blob/main/Presentation.pdf).
+Find a copy of the entire presentation used to share findings [here](https://github.com/Shree-Analyst/SafetyNet_Marketing_Analysis/blob/main/Presentation.pdf) and a live presentation demo [here](https://www.loom.com/share/7e2b31d1d441467885cd1067f38347a1).
 
 To improve analysis, we recommend the following:
 - **Address Data Quality Issues:** Family Coverage Plan had no data on clicks. 49 (0.3%) customer signups were not linked to any campaign. Combining data from separate tables creates nulls in new dimensions. Work with data engineering team to address these issues.
