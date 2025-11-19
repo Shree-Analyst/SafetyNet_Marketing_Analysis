@@ -87,3 +87,5 @@ Uncover specific insights & visualise trends using Tableau dashboard [here](http
 
 # Appendix
 Find a copy of the entire presentation used to share findings [here](https://raw.githubusercontent.com/Shree-Analyst/SafetyNet_Marketing_Analysis/main/Presentation.pdf) and a live presentation demo [here](https://www.loom.com/share/7e2b31d1d441467885cd1067f38347a1).
+
+Tools used: Excel, Tableau, Python, VSCode.
