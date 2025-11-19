@@ -5,7 +5,7 @@ The data team's focus is on building a dynamic dashboard to allow the marketing 
 - Increase brand awareness
 - Generate new signups.
 
-ERD of the dataset can be found [here](https://github.com/Shree-Analyst/Health_Insurance_Analysis/blob/main/ERD.png).
+ERD of the dataset can be found [here](https://github.com/Shree-Analyst/SafetyNet_Marketing_Analysis/blob/main/ERD.png).
 
 # Executive Summary
 
@@ -17,7 +17,7 @@ For each campaign, we evaluate the following **North Star Metrics:**
 
 ### Tableau Dashboard
 
-![Dashboard](https://github.com/Shree-Analyst/Health_Insurance_Analysis/blob/main/Visualisations/Dashboard.png)
+![Dashboard](https://github.com/Shree-Analyst/SafetyNet_Marketing_Analysis/blob/main/Visualisations/Dashboard.png)
 
 Safety Net's overall **CTR was 9.39%, Signup Rate 1.92%, and CPS $3.68**, all of which were in line with industry trends.
 
@@ -28,7 +28,7 @@ There were statistically significant differences in campaign performance: **Heal
 # Insights Deep Dive
 ### Significant Differences in Campaign Performance & Resource Use Effectiveness:
 
-![Campaign Cost Scatterplot](https://github.com/Shree-Analyst/Health_Insurance_Analysis/blob/main/Visualisations/Scatter%205%20-%20Cost%20(presentation).png)
+![Campaign Cost Scatterplot](https://github.com/Shree-Analyst/SafetyNet_Marketing_Analysis/blob/main/Visualisations/Scatter%205%20-%20Cost%20(presentation).png)
 
 We can **separate campaigns into 4 performance categories** based on CTR & Signup Rates:
 1. High CTR & High Signup Rate to **increase awareness & generate signups** - **Health For All was the outright best-performing campaign** at CTR 25% & Signup Rate 8.2%. Compare Health Coverage followed with CTR 14% & Signup Rate 3%. **Combined, these campaigns cost $14k**.
@@ -41,8 +41,8 @@ We can **separate campaigns into 4 performance categories** based on CTR & Signu
 ### Campaign Types Can Drive Trends in Campaign Category Performance:
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-  <img src="https://github.com/Shree-Analyst/Health_Insurance_Analysis/blob/main/Visualisations/Signups-Category%20Line%20-%20CHC%20Highlighted%20(presentation).png" alt="CHC Highlighted Line" width="49%">
-  <img src="https://github.com/Shree-Analyst/Health_Insurance_Analysis/blob/main/Visualisations/CHC%20Time%20Series%20(presentation).png" alt="CHC Type Line" width="49%">
+  <img src="https://github.com/Shree-Analyst/SafetyNet_Marketing_Analysis/blob/main/Visualisations/Signups-Category%20Line%20-%20CHC%20Highlighted%20(presentation).png" alt="CHC Highlighted Line" width="49%">
+  <img src="https://github.com/Shree-Analyst/SafetyNet_Marketing_Analysis/blob/main/Visualisations/CHC%20Time%20Series%20(presentation).png" alt="CHC Type Line" width="49%">
 </div>
 
 **Most campaigns showed a similar trend** in terms of new monthly signups:
@@ -68,7 +68,7 @@ Based on the insights and findings above, we would recommend the marketing team 
 - Re-evaluate product offering due to High CPS & few signups to Platinum & Bronze plans. **Consider eliminating the platinum plan** & making improvements to the bronze plan.
 
 # Caveats & Next Steps:
-Find a copy of the entire presentation used to share findings [here](https://github.com/Shree-Analyst/Health_Insurance_Analysis/blob/main/Presentation.pdf).
+Find a copy of the entire presentation used to share findings [here](https://github.com/Shree-Analyst/SafetyNet_Marketing_Analysis/blob/main/Presentation.pdf).
 
 To improve analysis, we recommend the following:
 - **Address Data Quality Issues:** Family Coverage Plan had no data on clicks. 49 (0.3%) customer signups were not linked to any campaign. Combining data from separate tables creates nulls in new dimensions. Work with data engineering team to address these issues.
