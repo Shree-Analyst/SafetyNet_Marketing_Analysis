@@ -1,9 +1,11 @@
 # Project Background
-Founded in 2016, Safety Net is a health insurance provider serving thousands of customers in the US. It launched new marketing campaigns in 2019 with customers able to sign up to one of 4 insurance plans. It recently hired a new data team and aims to use analytics to determine next year's marketing budget allocation.
+Founded in 2016, Safety Net is a health insurance provider serving thousands of customers in the US. It launched new marketing campaigns in 2019 with customers able to sign up to one of 4 insurance plans. It recently hired a new data team and aims to use data-driven insights based on past performance to determine next year's marketing budget allocation.
 
-The data team's focus is on **analysing marketing campaign performance to improve the Marketing Team's resource allocation** and on building a dynamic dashboard to allow them to self-serve insights, aimed at meeting the following goals:
+The data team's focus is on analysing marketing campaign performance to improve the Marketing Team's resource allocation and on building a dynamic dashboard to allow them to self-serve insights, aimed at meeting the following goals:
 - Increase brand awareness
 - Generate new signups.
+
+**Business Question: How should the marketing team reallocate next year’s budget to maximize awareness, signups, and cost efficiency across 12 campaigns?**
 
 For each campaign, we evaluate the following **North Star Metrics:**
 
